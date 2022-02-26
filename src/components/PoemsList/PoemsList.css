@@ -1,0 +1,31 @@
+.poemslist{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+.favourites{
+    width: 30vw;
+    margin: 2%;
+    text-align: center;
+}
+.poemdetail{
+    cursor: pointer;
+    text-decoration: underline;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: aqua;
+}
+.no-favourites{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-value {
+    font-size: 20px;
+    color: #696969;
+}
+.header-key {
+    font-size: 26px;
+}

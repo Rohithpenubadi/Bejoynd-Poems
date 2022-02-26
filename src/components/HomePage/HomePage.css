@@ -1,0 +1,40 @@
+.spreaditems{
+    /* display: flex;
+    justify-content: center; */
+}
+.listpoem{
+    display: flex;
+    flex-direction: row;
+}
+.layout {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.login{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.fetchpoem-start {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
